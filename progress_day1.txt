@@ -1,0 +1,9 @@
+Day 1 Progress – AegisAI
+
+- Python environment configured on macOS (Apple Silicon)
+- Virtual environment created using venv
+- Project folder structure initialized
+- Required libraries for AI, ML, and backend installed
+- Hugging Face transformer model successfully tested
+- GPU acceleration (MPS) verified on Apple Silicon
+
