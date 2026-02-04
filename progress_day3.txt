@@ -1,0 +1,7 @@
+Day 3 Progress – AegisAI
+
+- Implemented centralized logging mechanism
+- Logged prompts, responses, and timestamps
+- Collected baseline normal behavior data
+- Prepared dataset for anomaly detection models
+

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from models.ai_model import AIModel
+from app.logger import log_event
 
 app = FastAPI(
     title="AegisAI",
@@ -21,8 +22,13 @@ def root():
 @app.post("/analyze")
 def analyze_prompt(request: PromptRequest):
     result = ai_model.analyze(request.text)
+
+    # Log prompt and response
+    log_event(request.text, result)
+
     return {
         "input": request.text,
         "analysis": result
     }
+
 
