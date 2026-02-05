@@ -1,0 +1,9 @@
+Day 4: Input Anomaly Detection
+
+- Implemented TF-IDF vectorization for prompt analysis
+- Applied Isolation Forest for detecting anomalous inputs
+- Classified malicious prompt injection attempts
+- Integrated input anomaly detection into FastAPI /analyze endpoint
+
+Status: Completed
+
