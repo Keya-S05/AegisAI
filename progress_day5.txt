@@ -1,0 +1,10 @@
+Day 5: Output Behavior Monitoring & Drift Detection
+
+- Implemented output behavior monitoring using transformer embeddings
+- Applied mean pooling and cosine similarity for drift detection
+- Compared real-time model outputs against baseline behavior
+- Distinguished between malicious input attempts and actual output drift
+- Integrated output anomaly results into the FastAPI /analyze endpoint
+
+Status: Completed
+
