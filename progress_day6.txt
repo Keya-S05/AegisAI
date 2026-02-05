@@ -1,0 +1,11 @@
+Day 6 – Streamlit Dashboard Implementation
+
+• Developed a Streamlit-based web dashboard for AegisAI
+• Integrated dashboard with FastAPI backend (/analyze endpoint)
+• Enabled real-time prompt analysis and anomaly visualization
+• Displayed input anomaly detection, output behavior monitoring, and JSON responses
+• Validated end-to-end system functionality via live UI testing
+
+Outcome:
+A real-time AI security monitoring dashboard enabling interactive analysis of prompts and AI behavior.
+
